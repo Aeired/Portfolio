@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aired</title>
+<style>
+ 
+ body{
+  background-color: #000;
+}
+
+  .main-container {
+    background-color: #000;
+    display: flex;
+    padding: 10px 0;
+    flex-direction: column;
+  }
+
+  .header-section {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    min-height: 791px;
+    width: 100%;
+    justify-content: center;
+    font-weight: 400;
+    white-space: nowrap;
+    text-align: center;
+    
+  }
+
+  @media (max-width: 991px) {
+    .header-section {
+      max-width: 100%;
+      white-space: initial;
+      padding: 0 20px;
+    }
+  }
+
+  .header-image {
+    position: absolute;
+    inset: 0;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  .header-nav {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 0 42px 240px;
+  }
+
+  @media (max-width: 991px) {
+    .header-nav {
+      max-width: 100%;
+      white-space: initial;
+      margin: 0 10px 40px 0;
+    }
+  }
+
+  .nav-links {
+    display: flex;
+    text-decoration: none;
+    justify-content: space-between;
+    gap: 20px;
+    font-size: 16px;
+    color: #fff;
+    line-height: 130%;
+  }
+
+  @media (max-width: 991px) {
+    .nav-links {
+      max-width: 100%;
+      flex-wrap: wrap;
+      white-space: initial;
+    }
+  }
+
+  .projects-link {
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+  }
+
+  .about-link {
+    font-family: Inter, sans-serif;
+    text-decoration: none;
+    color: #fff;
+    position: absolute;
+    top: 14px;
+    right: 20px;
+  }
+
+  .ai-title {
+    color: #f00;
+    letter-spacing: -2.56px;
+    align-self: center;
+    margin-top: 265px;
+    font: 128px/120% Newsreader, sans-serif;
+  }
+
+  @media (max-width: 991px) {
+    .ai-title {
+      margin-top: 40px;
+      font-size: 40px;
+    }
+  }
+
+  .content-section {
+    display: flex;
+    margin-top: 22px;
+    width: 100%;
+    flex-direction: column;
+    color: #fff;
+  }
+
+  @media (max-width: 991px) {
+    .content-section {
+      max-width: 100%;
+    }
+  }
+
+  .content-image {
+    aspect-ratio: 2.04;
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    max-width: 1350px;
+  }
+
+  @media (max-width: 991px) {
+    .content-image {
+      max-width: 100%;
+    }
+  }
+
+  .content-description {
+    align-self: center;
+    display: flex;
+    margin-top: 26px;
+    width: 100%;
+    max-width: 1035px;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  @media (max-width: 991px) {
+    .content-description {
+      max-width: 100%;
+      flex-wrap: wrap;
+    }
+  }
+
+  .description-header, .description-text {
+    font-family: Inter, sans-serif;
+  }
+
+</style>
+</head>
+<body>
+<div class="main-container">
+  <section class="header-section">
+    <img loading="lazy" srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/9a72fe1054cb96fd9e3e03f44e223a49f1f0dc84385519ff69af00cb830c949c?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a72fe1054cb96fd9e3e03f44e223a49f1f0dc84385519ff69af00cb830c949c?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a72fe1054cb96fd9e3e03f44e223a49f1f0dc84385519ff69af00cb830c949c?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a72fe1054cb96fd9e3e03f44e223a49f1f0dc84385519ff69af00cb830c949c?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a72fe1054cb96fd9e3e03f44e223a49f1f0dc84385519ff69af00cb830c949c?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a72fe1054cb96fd9e3e03f44e223a49f1f0dc84385519ff69af00cb830c949c?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a72fe1054cb96fd9e3e03f44e223a49f1f0dc84385519ff69af00cb830c949c?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/9a72fe1054cb96fd9e3e03f44e223a49f1f0dc84385519ff69af00cb830c949c?apiKey=f3ba117ea2504f62b6cb215d7c755862&"alt="Decorative header image" class="header-image" />
+    <nav class="header-nav">
+      <div class="nav-links">
+        <a href=demo.html p class="projects-link">PROJECTS</a>
+        <p class="about-link">ABOUT</p>
+      </div>
+      <h1 class="ai-title">AIRED</h1>
+    </nav>
+  </section>
+  <section class="content-section">
+    <img loading="lazy" srcset="https://cdn.builder.io/api/v1/image/assets/TEMP/56512663f60821048a8c21baeb1a8d6bb9fb04c5a81074739d29d66c6d2e6f46?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=100 100w, https://cdn.builder.io/api/v1/image/assets/TEMP/56512663f60821048a8c21baeb1a8d6bb9fb04c5a81074739d29d66c6d2e6f46?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=200 200w, https://cdn.builder.io/api/v1/image/assets/TEMP/56512663f60821048a8c21baeb1a8d6bb9fb04c5a81074739d29d66c6d2e6f46?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=400 400w, https://cdn.builder.io/api/v1/image/assets/TEMP/56512663f60821048a8c21baeb1a8d6bb9fb04c5a81074739d29d66c6d2e6f46?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=800 800w, https://cdn.builder.io/api/v1/image/assets/TEMP/56512663f60821048a8c21baeb1a8d6bb9fb04c5a81074739d29d66c6d2e6f46?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=1200 1200w, https://cdn.builder.io/api/v1/image/assets/TEMP/56512663f60821048a8c21baeb1a8d6bb9fb04c5a81074739d29d66c6d2e6f46?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=1600 1600w, https://cdn.builder.io/api/v1/image/assets/TEMP/56512663f60821048a8c21baeb1a8d6bb9fb04c5a81074739d29d66c6d2e6f46?apiKey=f3ba117ea2504f62b6cb215d7c755862&width=2000 2000w, https://cdn.builder.io/api/v1/image/assets/TEMP/56512663f60821048a8c21baeb1a8d6bb9fb04c5a81074739d29d66c6d2e6f46?apiKey=f3ba117ea2504f62b6cb215d7c755862&"alt="Decorative content image" class="content-image" />
+    <div class="content-description">
+      <h2 class="description-header">WHAT IS AIRED</h2>
+      <p class="description-text">We believe in two moons. We believe in air cocoon. <br /><br />We believe in keep dancing. We believe in snow in Sapporo. We believe in the distant sound of the ancient bell, knight leader, sheep with a star mark, Dolphin Hotel. <br /><br />We believe in the little people that star fire turns into.<br /><br />We believe in the boundless blue sky and grassland, believe in the wind, believe in the city above the sky, believe in the train on the sea, believe in never looking back, believe in the Totoro bus, believe in the heron, believe in the boy, believe in the "Puma", believe in youth. Believe in cynicism that is not cynicism, believe in humanity, believe in the beast, believe in the feeling of freedom, believe in the end, believe in prayer, believe in the burning of fire.<br /><br />僕らは二つの月を、空気さなぎを、踊りを、札幌の雪を、遠くの鐘を、騎士団長を、星マークの羊を、イルカホテルを、火花となった小人を、そして限りない青を信じている空と草原、風を信じる、空の上の街を信じる、海の電車を信じる、振り返らないことを信じる、トトロのバスを信じる、サギを信じる、若者を信じる、を信じて「プーマ」、若さを信じて。 シニシズムではないシニシズムを信じ、人間性を信じ、獣を信じ、自由の感覚を信じ、終末を信じ、祈りを信じ、燃える火を信じなさい。<br /><br />我們相信兩個月亮，相信空氣蛹，相信舞，相信札幌的雪，相信遙遠的鈴聲，騎士團長，帶星星記號的羊，海豚酒店，相信星火變成的小人，相信無邊的藍天和草原，相信風，相信天空之上的城，相信海上的列車，相信不要回頭看，相信龍貓巴士，相信蒼鷺，相信少年，相信「美洲豹」，相信青春。相信不是犬儒主義的犬儒主義，相信人性，相信野獸，相信自由的感覺，相信末日，相信祈禱，相信火的燃燒。</p>
+    </div>
+  </section>
+</div>
+</body>
+</html>
